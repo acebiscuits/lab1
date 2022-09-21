@@ -16,10 +16,12 @@ for f in folders:
 
 !pip install beautifulsoup4
 
+import time
+
 import requests
 from bs4 import BeautifulSoup
 
-import time
+
 
 url = "https://yandex.ru/images/search?text=tiger&from=tabbar"
 
